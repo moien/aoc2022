@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace AoC2022
 {
-    class Day01
+    static class Day01
     {
         public static void Run()
         {
@@ -28,7 +28,12 @@ namespace AoC2022
                 sum += Convert.ToInt64(line);
             }
 
+            
             Console.WriteLine(sums.Max());
+
+
+            
+            Console.WriteLine(sums.OrderByDescending(x => x).ToList().Take(3).Sum());
         }
     }
 }
