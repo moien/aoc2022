@@ -8,7 +8,7 @@ namespace AoC2022
 
         public static void Run()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
